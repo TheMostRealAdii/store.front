@@ -1,0 +1,318 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+@import url("https://use.typekit.net/dtx5eaq.css");
+
+body {
+  background: #f8dfdb;
+  scroll-behavior: smooth;
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: #f8dfdb;
+  background: #fc221c;
+}
+
+::selection {
+  color: #f8dfdb;
+  background: #fc221c;
+}
+
+.title {
+  font-family: "brim-narrow-combined-2", sans-serif;
+  font-weight: 400;
+  margin-left: 0.9em;
+  margin-top: 0.5em;
+  font-style: normal;
+  /* text-align: center; */
+  font-size: 10em;
+  color: #fc221c;
+}
+.suvtext {
+  width: 30em;
+  font-family: "garamond-premier-pro", serif;
+  font-weight: 400;
+  margin-left: 3em;
+  margin-top: -2em;
+  font-style: normal;
+  font-size: 3em;
+  /* text-align: center; */
+  color: #fc221c;
+}
+
+.suvtext2 {
+  width: 30em;
+  font-family: "garamond-premier-pro", serif;
+  font-weight: 400;
+  margin-left: 3em;
+  margin-top: 0em;
+  font-style: normal;
+  font-size: 3em;
+  /* text-align: center; */
+  color: #fc221c;
+  opacity: 1;
+  animation: flickerAnimation 2s infinite;
+}
+
+@keyframes flickerAnimation {
+  /* flame pulses */
+  0% {
+    color: #fc221c;
+  }
+  50% {
+    color: #000;
+  }
+  100% {
+    color: #fc221c;
+  }
+}
+.gap {
+  margin-top: 16em;
+}
+
+.enqtext {
+  width: 35em;
+  font-family: "garamond-premier-pro", serif;
+  font-weight: 400;
+  margin-left: 3em;
+  font-size: 3em;
+  font-style: normal;
+
+  margin-left: 3em;
+}
+
+.enqtex {
+  color: #fc221c;
+}
+
+.scroll {
+  font-family: "garamond-premier-pro", serif;
+  font-style: normal;
+  font-weight: 400;
+  text-align: right;
+  color: #fc221c;
+  margin-top: 0em;
+  margin-right: 2em;
+  font-size: 2em;
+}
+
+.subscribe {
+  font-family: "garamond-premier-pro", serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #fc221c;
+  margin-left: 2.2em;
+  font-size: 4em;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+/* Footer */
+
+.footerline {
+  background: #fc221c;
+  height: 2px;
+  width: 100%;
+  margin-bottom: 4.5em;
+}
+
+.copyright {
+  font-family: "garamond-premier-pro", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+@media only screen and (max-width: 1696px) {
+  .title {
+    font-family: "brim-narrow-combined-2", sans-serif;
+    font-weight: 400;
+    margin-left: 0.3em;
+    margin-top: 0.5em;
+    font-style: normal;
+    /* text-align: center; */
+    font-size: 9em;
+    color: #fc221c;
+  }
+  .suvtext {
+    width: 30em;
+    font-family: "garamond-premier-pro", serif;
+    font-weight: 400;
+    margin-left: 1.2em;
+    margin-top: -2em;
+    font-style: normal;
+    font-size: 2.8em;
+    /* text-align: center; */
+    color: #fc221c;
+  }
+
+  .suvtext2 {
+    width: 30em;
+    font-family: "garamond-premier-pro", serif;
+    font-weight: 400;
+    margin-left: 1.2em;
+    margin-top: 0em;
+    font-style: normal;
+    font-size: 2.8em;
+    /* text-align: center; */
+    color: #fc221c;
+    opacity: 1;
+    animation: flickerAnimation 2s infinite;
+  }
+
+  .subscribe {
+    font-family: "garamond-premier-pro", serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #fc221c;
+    margin-left: 0.9em;
+    font-size: 4em;
+  }
+
+  @keyframes flickerAnimation {
+    /* flame pulses */
+    0% {
+      color: #fc221c;
+    }
+    50% {
+      color: #000;
+    }
+    100% {
+      color: #fc221c;
+    }
+  }
+  .gap {
+    margin-top: 16em;
+  }
+
+  .enqtext {
+    width: 30em;
+    font-family: "garamond-premier-pro", serif;
+    font-weight: 400;
+    margin-left: 3em;
+    font-size: 2.8em;
+    font-style: normal;
+    margin-left: 1.2em;
+  }
+
+  .enqtex {
+    color: #fc221c;
+  }
+
+  .scroll {
+    font-family: "garamond-premier-pro", serif;
+    font-style: normal;
+    font-weight: 400;
+    text-align: right;
+    color: #fc221c;
+    margin-top: 0em;
+    margin-right: 2em;
+    font-size: 2em;
+  }
+}
+
+@media only screen and (max-width: 1294px) {
+  .title {
+    font-family: "brim-narrow-combined-2", sans-serif;
+    font-weight: 400;
+    margin-left: 0.3em;
+    margin-top: 0.8em;
+    font-style: normal;
+    /* text-align: center; */
+    font-size: 7em;
+    color: #fc221c;
+  }
+  .suvtext {
+    width: 30em;
+    font-family: "garamond-premier-pro", serif;
+    font-weight: 400;
+    margin-left: 1em;
+    margin-top: -1.5em;
+    font-style: normal;
+    font-size: 2.4em;
+    /* text-align: center; */
+    color: #fc221c;
+  }
+
+  .suvtext2 {
+    width: 30em;
+    font-family: "garamond-premier-pro", serif;
+    font-weight: 400;
+    margin-left: 1em;
+    margin-top: 0em;
+    font-style: normal;
+    font-size: 2.4em;
+    /* text-align: center; */
+    color: #fc221c;
+    opacity: 1;
+    animation: flickerAnimation 2s infinite;
+  }
+
+  .subscribe {
+    font-family: "garamond-premier-pro", serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #fc221c;
+    margin-left: 0.7em;
+    font-size: 3.5em;
+  }
+
+  @keyframes flickerAnimation {
+    /* flame pulses */
+    0% {
+      color: #fc221c;
+    }
+    50% {
+      color: #000;
+    }
+    100% {
+      color: #fc221c;
+    }
+  }
+  .gap {
+    margin-top: 16em;
+  }
+
+  .enqtext {
+    width: 30em;
+    font-family: "garamond-premier-pro", serif;
+    font-weight: 400;
+    margin-left: 1em;
+    font-size: 2.4em;
+    font-style: normal;
+    margin-left: 1.2em;
+  }
+
+  .enqtex {
+    color: #fc221c;
+  }
+
+  .scroll {
+    font-family: "garamond-premier-pro", serif;
+    font-style: normal;
+    font-weight: 400;
+    text-align: right;
+    color: #fc221c;
+    margin-top: 0em;
+    margin-right: 2em;
+    font-size: 2em;
+  }
+}
