@@ -27,7 +27,7 @@ body {
   margin-top: 0.5em;
   font-style: normal;
   /* text-align: center; */
-  font-size: 10em;
+  font-size: 7.5vw;
   color: #fc221c;
 }
 .suvtext {
@@ -37,7 +37,7 @@ body {
   margin-left: 3em;
   margin-top: -2em;
   font-style: normal;
-  font-size: 3em;
+  font-size: 2.25vw;
   /* text-align: center; */
   color: #fc221c;
 }
@@ -49,7 +49,7 @@ body {
   margin-left: 3em;
   margin-top: 0em;
   font-style: normal;
-  font-size: 3em;
+  font-size: 2.25vw;
   /* text-align: center; */
   color: #fc221c;
   opacity: 1;
@@ -77,7 +77,7 @@ body {
   font-family: "garamond-premier-pro", serif;
   font-weight: 400;
   margin-left: 3em;
-  font-size: 3em;
+  font-size: 2.25vw;
   font-style: normal;
 
   margin-left: 3em;
@@ -87,24 +87,13 @@ body {
   color: #fc221c;
 }
 
-.scroll {
-  font-family: "garamond-premier-pro", serif;
-  font-style: normal;
-  font-weight: 400;
-  text-align: right;
-  color: #fc221c;
-  margin-top: 0em;
-  margin-right: 2em;
-  font-size: 2em;
-}
-
 .subscribe {
   font-family: "garamond-premier-pro", serif;
   font-style: normal;
   font-weight: 400;
   color: #fc221c;
   margin-left: 2.2em;
-  font-size: 4em;
+  font-size: 3vw;
 }
 
 a:link {
@@ -204,7 +193,7 @@ a:active {
   }
 
   .enqtext {
-    width: 30em;
+    width: 32em;
     font-family: "garamond-premier-pro", serif;
     font-weight: 400;
     margin-left: 3em;
@@ -229,12 +218,12 @@ a:active {
   }
 }
 
-@media only screen and (max-width: 1294px) {
+@media only screen and (max-width: 1510px) {
   .title {
     font-family: "brim-narrow-combined-2", sans-serif;
     font-weight: 400;
     margin-left: 0.3em;
-    margin-top: 0.8em;
+    margin-top: 0.5em;
     font-style: normal;
     /* text-align: center; */
     font-size: 7em;
@@ -244,10 +233,10 @@ a:active {
     width: 30em;
     font-family: "garamond-premier-pro", serif;
     font-weight: 400;
-    margin-left: 1em;
+    margin-left: 1.1em;
     margin-top: -1.5em;
     font-style: normal;
-    font-size: 2.4em;
+    font-size: 2.5em;
     /* text-align: center; */
     color: #fc221c;
   }
@@ -256,10 +245,10 @@ a:active {
     width: 30em;
     font-family: "garamond-premier-pro", serif;
     font-weight: 400;
-    margin-left: 1em;
+    margin-left: 1.1em;
     margin-top: 0em;
     font-style: normal;
-    font-size: 2.4em;
+    font-size: 2.5em;
     /* text-align: center; */
     color: #fc221c;
     opacity: 1;
@@ -271,7 +260,7 @@ a:active {
     font-style: normal;
     font-weight: 400;
     color: #fc221c;
-    margin-left: 0.7em;
+    margin-left: 0.8em;
     font-size: 3.5em;
   }
 
@@ -292,13 +281,13 @@ a:active {
   }
 
   .enqtext {
-    width: 30em;
+    width: 32em;
     font-family: "garamond-premier-pro", serif;
     font-weight: 400;
-    margin-left: 1em;
-    font-size: 2.4em;
+    margin-left: 3em;
+    font-size: 2.5em;
     font-style: normal;
-    margin-left: 1.2em;
+    margin-left: 1.1em;
   }
 
   .enqtex {
@@ -315,4 +304,268 @@ a:active {
     margin-right: 2em;
     font-size: 2em;
   }
+}
+
+@media only screen and (max-width: 1346px) {
+  .title {
+    font-family: "brim-narrow-combined-2", sans-serif;
+    font-weight: 400;
+    margin-left: 0.35em;
+    margin-top: 0.8em;
+    font-style: normal;
+    /* text-align: center; */
+    font-size: 6.5em;
+    color: #fc221c;
+  }
+  .suvtext {
+    width: 29em;
+    font-family: "garamond-premier-pro", serif;
+    font-weight: 400;
+    margin-left: 1.1em;
+    margin-top: -1.5em;
+    font-style: normal;
+    font-size: 2.1em;
+    /* text-align: center; */
+    color: #fc221c;
+  }
+
+  .suvtext2 {
+    width: 29em;
+    font-family: "garamond-premier-pro", serif;
+    font-weight: 400;
+    margin-left: 1.1em;
+    margin-top: 0em;
+    font-style: normal;
+    font-size: 2.1em;
+    /* text-align: center; */
+    color: #fc221c;
+    opacity: 1;
+    animation: flickerAnimation 2s infinite;
+  }
+
+  .subscribe {
+    font-family: "garamond-premier-pro", serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #fc221c;
+    margin-left: 0.8em;
+    font-size: 2.7em;
+  }
+
+  @keyframes flickerAnimation {
+    /* flame pulses */
+    0% {
+      color: #fc221c;
+    }
+    50% {
+      color: #000;
+    }
+    100% {
+      color: #fc221c;
+    }
+  }
+  .gap {
+    margin-top: 16em;
+  }
+
+  /* .enqtext {
+    width: 32em;
+    font-family: "garamond-premier-pro", serif;
+    font-weight: 400;
+    margin-left: 3em;
+    font-size: 2.3em;
+    font-style: normal;
+    margin-left: 1.1em;
+  }
+
+  .enqtex {
+    color: #fc221c;
+  }
+
+  .scroll {
+    font-family: "garamond-premier-pro", serif;
+    font-style: normal;
+    font-weight: 400;
+    text-align: right;
+    color: #fc221c;
+    margin-top: 0em;
+    margin-right: 2em;
+    font-size: 2em;
+  } */
+}
+
+@media only screen and (max-width: 1078px) {
+  .title {
+    font-family: "brim-narrow-combined-2", sans-serif;
+    font-weight: 400;
+    margin-left: 0.35em;
+    margin-top: 0.8em;
+    font-style: normal;
+    /* text-align: center; */
+    font-size: 5.9em;
+    color: #fc221c;
+  }
+  .suvtext {
+    width: 85%;
+    font-family: "garamond-premier-pro", serif;
+    font-weight: 400;
+    margin-left: 1.1em;
+    margin-top: -1.5em;
+    font-style: normal;
+    font-size: 2.1em;
+    /* text-align: center; */
+    color: #fc221c;
+  }
+
+  .suvtext2 {
+    width: 90%;
+    font-family: "garamond-premier-pro", serif;
+    font-weight: 400;
+    margin-left: 1.1em;
+    margin-top: 0em;
+    font-style: normal;
+    font-size: 2.1em;
+    /* text-align: center; */
+    color: #fc221c;
+    opacity: 1;
+    animation: flickerAnimation 2s infinite;
+  }
+
+  .subscribe {
+    font-family: "garamond-premier-pro", serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #fc221c;
+    margin-left: 0.8em;
+    font-size: 2.7em;
+  }
+
+  @keyframes flickerAnimation {
+    /* flame pulses */
+    0% {
+      color: #fc221c;
+    }
+    50% {
+      color: #000;
+    }
+    100% {
+      color: #fc221c;
+    }
+  }
+  .gap {
+    margin-top: 16em;
+  }
+
+  /* .enqtext {
+    width: 32em;
+    font-family: "garamond-premier-pro", serif;
+    font-weight: 400;
+    margin-left: 3em;
+    font-size: 2.3em;
+    font-style: normal;
+    margin-left: 1.1em;
+  }
+
+  .enqtex {
+    color: #fc221c;
+  }
+
+  .scroll {
+    font-family: "garamond-premier-pro", serif;
+    font-style: normal;
+    font-weight: 400;
+    text-align: right;
+    color: #fc221c;
+    margin-top: 0em;
+    margin-right: 2em;
+    font-size: 2em;
+  } */
+}
+
+@media only screen and (max-width: 842px) {
+  .title {
+    font-family: "brim-narrow-combined-2", sans-serif;
+    font-weight: 400;
+    margin-left: 0.35em;
+    margin-top: 0.8em;
+    font-style: normal;
+    /* text-align: center; */
+    font-size: 4.5em;
+    color: #fc221c;
+  }
+  .suvtext {
+    width: 85%;
+    font-family: "garamond-premier-pro", serif;
+    font-weight: 400;
+    margin-left: 0.9em;
+    margin-top: -1em;
+    font-style: normal;
+    font-size: 2.1em;
+    /* text-align: center; */
+    color: #fc221c;
+  }
+
+  .suvtext2 {
+    width: 90%;
+    font-family: "garamond-premier-pro", serif;
+    font-weight: 400;
+    margin-left: 0.9em;
+    margin-top: 0em;
+    font-style: normal;
+    font-size: 2.1em;
+    /* text-align: center; */
+    color: #fc221c;
+    opacity: 1;
+    animation: flickerAnimation 2s infinite;
+  }
+
+  .subscribe {
+    font-family: "garamond-premier-pro", serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #fc221c;
+    margin-left: 0.7em;
+    font-size: 2.7em;
+  }
+
+  @keyframes flickerAnimation {
+    /* flame pulses */
+    0% {
+      color: #fc221c;
+    }
+    50% {
+      color: #000;
+    }
+    100% {
+      color: #fc221c;
+    }
+  }
+  .gap {
+    margin-top: 16em;
+  }
+
+  /* .enqtext {
+    width: 32em;
+    font-family: "garamond-premier-pro", serif;
+    font-weight: 400;
+    margin-left: 3em;
+    font-size: 2.3em;
+    font-style: normal;
+    margin-left: 1.1em;
+  }
+
+  .enqtex {
+    color: #fc221c;
+  }
+
+  .scroll {
+    font-family: "garamond-premier-pro", serif;
+    font-style: normal;
+    font-weight: 400;
+    text-align: right;
+    color: #fc221c;
+    margin-top: 0em;
+    margin-right: 2em;
+    font-size: 2em;
+  } */
 }

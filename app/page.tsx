@@ -27,7 +27,7 @@ export default function Home() {
         <div className="subscribe">Subscribe Now →</div>
       </a>
       {/* <div className="scroll">SCROLL</div> */}
-      <div className="gap"></div>
+      {/* <div className="gap"></div>
       <p className="enqtext">
         <span className="enqtex">Swift Shipping: </span>During the initial
         months, we estimate a delivery time of 14-15 days. However, rest assured
@@ -46,7 +46,7 @@ export default function Home() {
         newsletter, ensuring you&apos;re among the first to know when our store
         officially launches. Get ready to embrace the past in style with
         RustyRags!
-      </p>
+      </p> */}
       <div className="gap"></div>
       <footer>
         <div className="footerline"></div>
