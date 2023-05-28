@@ -22,13 +22,18 @@ const Menu = () => {
         </div> */}
         <ul>
           <li>
-            <a href="#">Home</a>
+            <Link href={"/"}>Home</Link>
           </li>
           <li>
-            <a href="#">Blog</a>
+            <Link href={"/blogs"}>Blog</Link>
           </li>
           <li>
-            <a href="#">Subscribe</a>
+            <Link
+              href={"https://mailchi.mp/b41c3798dcb1/subscribe"}
+              target="_link"
+            >
+              Subscribe
+            </Link>
           </li>
 
           {/* <li>
