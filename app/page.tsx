@@ -1,21 +1,28 @@
 import Image from "next/image";
 import Head from "next/head";
-// import s from ""
+import Menu from "./components/Menu";
+import s from "./styles/main.module.css";
+
 export default function Home() {
   return (
     <>
       <Head>
         <title>RustyRags</title>
       </Head>
-      <h1 className="title">Rusty Rags</h1>
-      <p className="suvtext">
+      <Menu />
+      <h1 className={`${s.title}`}>Rusty Rags</h1>
+      <p className={`${s.subtext1} ${s.subtextdeco}`}>
         Welcome to RustyRags, your go-to destination for vintage and
         retro-inspired minimal apparel. As a print-on-demand dropshipping store,
         we&apos;re here to deliver the perfect blend of nostalgia and fashion
-        right to your doorstep. With our launch just around the corner, get
-        ready to step into the past with our carefully curated collection.
+        right to your doorstep.
       </p>
-      <p className="suvtext2">
+      {/* <p>
+        {" "}
+        With our launch just around the corner, get ready to step into the past
+        with our carefully curated collection.
+      </p> */}
+      <p className={`${s.subtext2}`}>
         {" "}
         Stay in the loop with our latest updates by subscribing to our
         newsletter, ensuring you&apos;re among the first to know when our store
@@ -24,7 +31,7 @@ export default function Home() {
       </p>
       <a href="https://mailchi.mp/b41c3798dcb1/subscribe" target="_link">
         {" "}
-        <div className="subscribe">Subscribe Now →</div>
+        <div className={`${s.subscribe}`}>Subscribe Now →</div>
       </a>
       {/* <div className="scroll">SCROLL</div> */}
       {/* <div className="gap"></div>
@@ -47,10 +54,10 @@ export default function Home() {
         officially launches. Get ready to embrace the past in style with
         RustyRags!
       </p> */}
-      <div className="gap"></div>
+      <div className={`${s.gap}`}></div>
       <footer>
-        <div className="footerline"></div>
-        <div className="copyright">Copyright © 2023 RustyRags.</div>
+        <div className={`${s.footerline}`}></div>
+        <div className={`${s.copyright}`}>Copyright © 2023 RustyRags.</div>
       </footer>
     </>
   );
