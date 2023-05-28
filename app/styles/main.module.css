@@ -1,0 +1,377 @@
+.title {
+  font-family: "bonnie", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  color: #39423e;
+  font-size: 13em;
+}
+
+.subtext1 {
+  font-family: "bonnie", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #39423e;
+  text-align: center;
+  font-size: 4.5em;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.subtextdeco {
+  color: #007653;
+}
+
+.subtext2 {
+  font-family: "bonnie", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #39423e;
+  text-align: center;
+  font-size: 4.5em;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.subscribe {
+  font-family: "bonnie", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #fc221c;
+  font-size: 4.5em;
+  text-align: center;
+}
+
+.footerline {
+  background: #007653;
+  height: 3px;
+  width: 100%;
+  margin-top: 5em;
+}
+
+.copyright {
+  font-family: "bonnie", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  font-size: 2em;
+}
+
+@media only screen and (max-width: 1648px) {
+  .title {
+    font-family: "bonnie", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    color: #39423e;
+    font-size: 10em;
+  }
+
+  .subtext1 {
+    font-family: "bonnie", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #39423e;
+    text-align: center;
+    font-size: 3.5em;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .subtextdeco {
+    color: #007653;
+  }
+
+  .subtext2 {
+    font-family: "bonnie", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #39423e;
+    text-align: center;
+    font-size: 3.5em;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .subscribe {
+    font-family: "bonnie", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #fc221c;
+    font-size: 3.5em;
+    text-align: center;
+  }
+
+  .footerline {
+    background: #007653;
+    height: 3px;
+    width: 100%;
+    margin-top: 5em;
+  }
+
+  .copyright {
+    font-family: "bonnie", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    font-size: 2em;
+  }
+}
+
+@media only screen and (max-width: 1146px) {
+  .title {
+    font-family: "bonnie", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    color: #39423e;
+    font-size: 7em;
+  }
+
+  .subtext1 {
+    font-family: "bonnie", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #39423e;
+    text-align: center;
+    font-size: 3em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+
+  .subtextdeco {
+    color: #007653;
+  }
+
+  .subtext2 {
+    font-family: "bonnie", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #39423e;
+    text-align: center;
+    font-size: 3em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+
+  .subscribe {
+    font-family: "bonnie", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #fc221c;
+    font-size: 3em;
+    text-align: center;
+  }
+
+  .footerline {
+    background: #007653;
+    height: 3px;
+    width: 100%;
+    margin-top: 5em;
+  }
+
+  .copyright {
+    font-family: "bonnie", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    font-size: 2em;
+  }
+}
+
+@media only screen and (max-width: 848px) {
+  .title {
+    font-family: "bonnie", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    color: #39423e;
+    font-size: 5em;
+    margin-top: 2em;
+  }
+
+  .subtext1 {
+    font-family: "bonnie", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #39423e;
+    text-align: center;
+    font-size: 2.5em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+
+  .subtextdeco {
+    color: #007653;
+  }
+
+  .subtext2 {
+    font-family: "bonnie", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #39423e;
+    text-align: center;
+    font-size: 2.5em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+
+  .subscribe {
+    font-family: "bonnie", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #fc221c;
+    font-size: 2.5em;
+    text-align: center;
+  }
+
+  .footerline {
+    background: #007653;
+    height: 3px;
+    width: 100%;
+    margin-top: 5em;
+  }
+
+  .copyright {
+    font-family: "bonnie", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    font-size: 2em;
+  }
+}
+@media only screen and (max-width: 574px) {
+  .title {
+    font-family: "bonnie", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    color: #39423e;
+    font-size: 5em;
+    margin-top: 2em;
+  }
+
+  .subtext1 {
+    font-family: "bonnie", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #39423e;
+    text-align: center;
+    font-size: 2em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+
+  .subtextdeco {
+    color: #007653;
+  }
+
+  .subtext2 {
+    font-family: "bonnie", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #39423e;
+    text-align: center;
+    font-size: 2em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+
+  .subscribe {
+    font-family: "bonnie", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #fc221c;
+    font-size: 2.5em;
+    text-align: center;
+  }
+
+  .footerline {
+    background: #007653;
+    height: 3px;
+    width: 100%;
+    margin-top: 5em;
+  }
+
+  .copyright {
+    font-family: "bonnie", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .title {
+    font-family: "bonnie", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    color: #39423e;
+    font-size: 4em;
+    margin-top: 2.2em;
+  }
+
+  .subtext1 {
+    font-family: "bonnie", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #39423e;
+    text-align: center;
+    font-size: 1.5em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+
+  .subtextdeco {
+    color: #007653;
+  }
+
+  .subtext2 {
+    font-family: "bonnie", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #39423e;
+    text-align: center;
+    font-size: 1.5em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+
+  .subscribe {
+    font-family: "bonnie", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #fc221c;
+    font-size: 2em;
+    text-align: center;
+  }
+
+  .footerline {
+    background: #007653;
+    height: 3px;
+    width: 100%;
+    margin-top: 5em;
+  }
+
+  .copyright {
+    font-family: "bonnie", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    font-size: 1.5em;
+  }
+}
